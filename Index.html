@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <html lang="es">
+<head>
+  <meta name="description" content="MRO Bienes Raices pagina oficial. Encontra las mejores ofertas del mercado">
+  <meta name="keywords" content="Inmobiliaria, Bienes Raices, Inmuebles">
+  <link rel="icon" href="assets/img/MROFAVICON.jpg" type="image/png">
+  <link rel="stylesheet" type="text/css" href="Styles/styles.css">
+  <style>
+  </style>
+  <header>
+    
+    <div class="logo">
+      <img src="Assets/img/Logo-MRO_Marca_Alternativo_Transp.png" alt="Logo de mi página">
+    </div>
+</head>
+<body>
+  
+  <nav>
+    <ul>
+      <li>
+        <a href="Pages/Contactar.html">Contactar</a>
+        <div>
+          <p>Reserva día y hora</p>
+        </div>
+      </li>
+      <li>
+        <a href="Pages/Acercadenosotros.html">Acerca de nosotros</a>
+        <div>
+          <p>Conoce nuestra misión y visión</p>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</nav>
+  <div id="buscador-precio">
+    <form>
+        <label for="min-precio">Precio Mínimo USD:</label>
+        <input type="number" id="min-precio" name="min-precio">
+        <label for="max-precio">Precio Máximo USD:</label>
+        <input type="number" id="max-precio" name="max-precio">
+        <button type="button" onclick="buscarPorPrecio()">Buscar</button>
+    </form>
+    <div id="buscador-lista">
+      <label for="opciones">Tipo de Propiedad:</label>
+      <select id="opciones">
+          <option value="opcion1">Apartamento</option>
+          <option value="opcion2">Casa</option>
+          <option value="opcion3">Terreno</option>
+      </select>
+      <button type="button" onclick="realizarBusqueda()">Buscar</button>
+  </div>
+  <div id="buscador-lista">
+    <label for="opciones">Opción de Transacción:</label>
+    <select id="opciones">
+        <option value="opcion1">Venta</option>
+        <option value="opcion2">Alquiler</option>
+    </select>
+    <button type="button" onclick="realizarBusqueda()">Buscar</button>
+</div>
+</head>
+  <main>
+    <div class="container">
+      <img src="Assets/img/Casa1.jpg" alt="Descripción de la imagen">
+    </div>
+    <a href="Pages/Linkcasa1.html">
+      <button class="ingresar">INGRESAR</button>
+    </a>
+    <div class="container">
+      <img src="Assets/img/Casa2.jpg" alt="Descripción de la imagen">
+    </div>
+    <a href="Pages/Linkcasa2.html">
+      <button class="ingresar">INGRESAR</button>
+    </a>
+    <div class="container">
+      <img src="Assets/img/Casa3.jpg" alt="Descripción de la imagen">
+    </div>
+    <a href="Pages/Linkcasa3.html">
+      <button class="ingresar">INGRESAR</button>
+    </a>
+
+    <div class="container">
+      <img src="Assets/img/Casa4.jpg" alt="Descripción de la imagen">
+    </div>
+    <a href="Pages/Linkcasa4.html">
+      <button class="ingresar">INGRESAR</button>
+    </a>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 MRO Bienes Raices. Todos los derechos reservados.</p>
+    <p>Contactenos: mrobienesraices@hotmail.com</p>
+    <p>Web Desing by: Manuel Castillo</p>
+  </footer>
+
+
+</body>
+</html>
+
